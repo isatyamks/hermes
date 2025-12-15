@@ -46,12 +46,14 @@ class HermesLoggingCallback(BaseCallback):
         actions = self.locals["actions"]
         rewards = self.locals["rewards"]
         dones = self.locals["dones"]
+        infos = self.locals["infos"]
 
         for i in range(len(dones)):
             self.ep_logger.step(obs[i], actions[i], rewards[i])
 
             if dones[i]:
                 summary = self.ep_logger.summary()
+                summary["skill"] = infos[i].get("active_skill", None)
                 self.episode_summaries.append(summary)
                 self.ep_logger.reset()
 

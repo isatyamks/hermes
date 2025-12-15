@@ -1,6 +1,5 @@
 from stable_baselines3 import PPO
 from stable_baselines3.common.env_util import make_vec_env
-
 from env.humanoid_env import make_env
 # from rl.callbacks import EpisodeStatsCallback
 from rl.callbacks import HermesLoggingCallback
@@ -9,9 +8,6 @@ from skills.stand import StandSkill
 from skills.walk import WalkSkill
 from skills.recover import RecoverSkill
 from skills.manager import SkillManager
-
-
-
 
 skills = [
     StandSkill(),
@@ -23,13 +19,6 @@ skill_manager = SkillManager(
     skills=skills,
     initial_skill="stand"
 )
-
-
-
-
-
-
-
 
 def train():
     # env = make_vec_env(
