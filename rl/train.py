@@ -32,10 +32,15 @@ skill_manager = SkillManager(
 
 
 def train():
+    # env = make_vec_env(
+    #     make_env,
+    #     n_envs=4,
+    # )
     env = make_vec_env(
-        make_env,
-        n_envs=4,
+    lambda: make_env(skill_manager=skill_manager),
+    n_envs=4
     )
+
     model = PPO(
         policy="MlpPolicy",
         env=env,
