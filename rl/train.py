@@ -2,7 +2,33 @@ from stable_baselines3 import PPO
 from stable_baselines3.common.env_util import make_vec_env
 
 from env.humanoid_env import make_env
-from rl.callbacks import EpisodeStatsCallback
+# from rl.callbacks import EpisodeStatsCallback
+from rl.callbacks import HermesLoggingCallback
+
+from skills.stand import StandSkill
+from skills.walk import WalkSkill
+from skills.recover import RecoverSkill
+from skills.manager import SkillManager
+
+
+
+
+skills = [
+    StandSkill(),
+    WalkSkill(),
+    RecoverSkill()
+]
+
+skill_manager = SkillManager(
+    skills=skills,
+    initial_skill="stand"
+)
+
+
+
+
+
+
 
 
 def train():
@@ -23,7 +49,8 @@ def train():
         verbose=1,
         device="auto",
     )
-    callback = EpisodeStatsCallback()
+    # callback = EpisodeStatsCallback()
+    callback = HermesLoggingCallback()
 
     model.learn(
         total_timesteps=10_000,

@@ -1,9 +1,12 @@
 from stable_baselines3.common.callbacks import BaseCallback
-
+from _logging.episode_logger import EpisodeLogger
 import numpy as np
 
 
 class EpisodeStatsCallback(BaseCallback):
+    """
+    Simple SB3 episode statistics (baseline monitoring).
+    """
 
     def __init__(self, verbose=0):
         super().__init__(verbose)
@@ -22,6 +25,39 @@ class EpisodeStatsCallback(BaseCallback):
 
     def _on_training_end(self) -> None:
         if self.episode_rewards:
-            print("\nTraining Summary")
+            print("\n📊 Training Summary")
             print(f"Mean Reward: {np.mean(self.episode_rewards):.2f}")
             print(f"Mean Episode Length: {np.mean(self.episode_lengths):.2f}")
+
+
+class HermesLoggingCallback(BaseCallback):
+    """
+    HERMES episode-level introspection callback.
+    Does NOT interfere with learning.
+    """
+
+    def __init__(self, verbose=0):
+        super().__init__(verbose)
+        self.ep_logger = EpisodeLogger()
+        self.episode_summaries = []
+
+    def _on_step(self) -> bool:
+        obs = self.locals["new_obs"]
+        actions = self.locals["actions"]
+        rewards = self.locals["rewards"]
+        dones = self.locals["dones"]
+
+        for i in range(len(dones)):
+            self.ep_logger.step(obs[i], actions[i], rewards[i])
+
+            if dones[i]:
+                summary = self.ep_logger.summary()
+                self.episode_summaries.append(summary)
+                self.ep_logger.reset()
+
+        return True
+
+    def _on_training_end(self):
+        print("\n🧠 Sample Episode Summaries:")
+        for s in self.episode_summaries[:5]:
+            print(s)
