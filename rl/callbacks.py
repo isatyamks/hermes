@@ -4,9 +4,6 @@ import numpy as np
 
 
 class EpisodeStatsCallback(BaseCallback):
-    """
-    Simple SB3 episode statistics (baseline monitoring).
-    """
 
     def __init__(self, verbose=0):
         super().__init__(verbose)
@@ -25,17 +22,12 @@ class EpisodeStatsCallback(BaseCallback):
 
     def _on_training_end(self) -> None:
         if self.episode_rewards:
-            print("\n📊 Training Summary")
+            print("\nTraining Summary")
             print(f"Mean Reward: {np.mean(self.episode_rewards):.2f}")
             print(f"Mean Episode Length: {np.mean(self.episode_lengths):.2f}")
 
 
 class HermesLoggingCallback(BaseCallback):
-    """
-    HERMES episode-level introspection callback.
-    Does NOT interfere with learning.
-    """
-
     def __init__(self, verbose=0):
         super().__init__(verbose)
         self.ep_logger = EpisodeLogger()
@@ -60,6 +52,6 @@ class HermesLoggingCallback(BaseCallback):
         return True
 
     def _on_training_end(self):
-        print("\n🧠 Sample Episode Summaries:")
+        print("\nSample Episode Summaries:")
         for s in self.episode_summaries[:5]:
             print(s)
