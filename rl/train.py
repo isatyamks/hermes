@@ -1,0 +1,39 @@
+from stable_baselines3 import PPO
+from stable_baselines3.common.env_util import make_vec_env
+
+from env.humanoid_env import make_env
+from rl.callbacks import EpisodeStatsCallback
+
+
+def train():
+    env = make_vec_env(
+        make_env,
+        n_envs=4,
+    )
+    model = PPO(
+        policy="MlpPolicy",
+        env=env,
+        n_steps=2048,
+        batch_size=64,
+        learning_rate=3e-4,
+        gamma=0.99,
+        gae_lambda=0.95,
+        clip_range=0.2,
+        ent_coef=0.0,
+        verbose=1,
+        device="auto",
+    )
+    callback = EpisodeStatsCallback()
+
+    model.learn(
+        total_timesteps=10_000,
+        callback=callback,
+    )
+    model.save("experiments/base_ppo")
+
+    env.close()
+    print("Training finished")
+
+
+if __name__ == "__main__":
+    train()
