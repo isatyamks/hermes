@@ -1,187 +1,499 @@
-# HERMES Visualization System
+# HERMES: Hierarchical Embodied Reinforcement Learning with LLM Supervision
 
-Comprehensive visualization system for analyzing RL training, reports, LLM analysis, and evaluation results.
+A sophisticated reinforcement learning framework for training humanoid locomotion using hierarchical skills and LLM-based supervision. HERMES combines traditional RL (PPO) with a skill-based architecture and leverages Large Language Models for offline analysis and improvement suggestions.
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Architecture](#architecture)
+- [Installation](#installation)
+- [Quick Start](#quick-start)
+- [Project Structure](#project-structure)
+- [Key Components](#key-components)
+- [Workflow](#workflow)
+- [Usage Examples](#usage-examples)
+- [Development Roadmap](#development-roadmap)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Overview
 
-The visualization system automatically generates detailed plots and graphs after training, providing in-depth analysis of:
-- **Training Process**: Reward progression, skill performance, energy consumption, etc.
-- **Report Analysis**: Aggregated statistics, skill comparisons, failure modes
-- **LLM Analysis**: Confidence scores, suggested actions, parameter changes
-- **Evaluation Results**: Performance metrics, trajectories, success rates
+HERMES is designed to train a humanoid robot (MuJoCo Humanoid-v5) to perform complex locomotion tasks through a hierarchical approach:
+
+1. **Base PPO**: Low-level motor control (Phase 1 - Baseline)
+2. **Skill PPO**: Same control architecture with skill-specific reward shaping
+3. **Curriculum PPO**: Staged learning progression
+4. **HERMES PPO**: Full RL + LLM supervision system
+
+The system uses a skill-based hierarchy where the agent learns distinct skills (Stand, Walk, Recover) and switches between them based on performance metrics. An LLM supervisor analyzes training runs offline and provides actionable insights for improvement.
+
+## Features
+
+- 🎯 **Hierarchical Skill System**: Modular skills (Stand, Walk, Recover) with independent reward shaping
+- 🤖 **PPO-based RL**: Stable-Baselines3 implementation for robust training
+- 🧠 **LLM Supervision**: Offline analysis using local LLM (Ollama) for training diagnostics
+- 📊 **Comprehensive Logging**: Episode-level metrics including energy, height, falls, and skill performance
+- 🔄 **Automatic Skill Switching**: Rule-based supervisor switches skills based on performance
+- 📈 **Training Reports**: JSON-based reports with aggregated statistics for analysis
+- 🎮 **MuJoCo Integration**: Full support for Humanoid-v5 environment
+
+## Architecture
+
+```
+HERMES SYSTEM
+│
+├── base_ppo          ← Phase 1: Pure RL Baseline (low-level motor cortex)
+│
+├── skill_ppo         ← Phase 2: Same control, skill-specific rewards
+│
+├── curriculum_ppo    ← Phase 3: Staged learning progression
+│
+└── hermes_ppo        ← Phase 4: RL + LLM supervision (full system)
+```
+
+### System Components
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                    Training Loop (PPO)                      │
+│                                                              │
+│  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐ │
+│  │   Environment │───▶│  Skill       │───▶│   Episode    │ │
+│  │  (Humanoid-v5)│    │  Manager     │    │   Logger     │ │
+│  └──────────────┘    └──────────────┘    └──────────────┘ │
+│         │                    │                    │         │
+│         └────────────────────┼────────────────────┘         │
+│                              │                              │
+│                    ┌─────────▼─────────┐                   │
+│                    │  Skill Switcher    │                   │
+│                    │  (Rule-based)      │                   │
+│                    └────────────────────┘                   │
+└─────────────────────────────────────────────────────────────┘
+                              │
+                              ▼
+                    ┌─────────────────────┐
+                    │  Episode Summaries  │
+                    │  (JSON Reports)     │
+                    └─────────────────────┘
+                              │
+                              ▼
+                    ┌─────────────────────┐
+                    │  LLM Analyzer        │
+                    │  (Offline Analysis)  │
+                    └─────────────────────┘
+                              │
+                              ▼
+                    ┌─────────────────────┐
+                    │  Improvement        │
+                    │  Suggestions        │
+                    └─────────────────────┘
+```
+
+## Installation
+
+### Prerequisites
+
+- Python 3.8+
+- MuJoCo (for Humanoid-v5 environment)
+- Ollama (for LLM supervision - optional)
+
+### Step 1: Clone the Repository
+
+```bash
+git clone <repository-url>
+cd hermes
+```
+
+### Step 2: Install Python Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+The requirements include:
+- `gymnasium`: OpenAI Gym-compatible environments
+- `mujoco`: MuJoCo physics simulator
+- `stable-baselines3`: PPO implementation
+- `torch`: Deep learning framework
+- `numpy`: Numerical computing
+- `pyyaml`: YAML parsing
+
+### Step 3: Install Ollama (Optional, for LLM Supervision)
+
+If you want to use LLM-based analysis:
+
+1. Install Ollama from [https://ollama.ai](https://ollama.ai)
+2. Pull a model (e.g., `ollama pull llama3`)
 
 ## Quick Start
 
-### Automatic Generation
+### 1. Train a Model
 
-Visualizations are automatically generated after training:
+Train a PPO agent with hierarchical skills:
 
 ```bash
 python -m rl.train
 ```
 
-This will create visualizations in `visualizations/outputs/training/` and `visualizations/outputs/reports/`.
+This will:
+- Create a vectorized environment (4 parallel environments)
+- Initialize skills: Stand, Walk, Recover
+- Train for 10,000 timesteps
+- Save the model to `experiments/base_ppo`
+- Generate a training report in `supervisor/reports/`
 
-### Manual Generation
-
-Generate visualizations from existing data:
+### 2. Evaluate a Trained Model
 
 ```bash
-# From training report
-python visualize.py --report supervisor/reports/run_YYYY-MM-DD_HH-MM-SS.json
-
-# From LLM analysis
-python visualize.py --analysis supervisor/analyses/analysis_YYYY-MM-DD_HH-MM-SS.json
-
-# Both
-python visualize.py --report <report_path> --analysis <analysis_path>
+python -m rl.evaluate
 ```
 
-### After LLM Analysis
+Note: `rl.evaluate` currently does not parse CLI arguments. To change the model path or episode count, edit the defaults in `rl/evaluate.py` (the `evaluate(model_path=..., episodes=...)` call under the `if __name__ == "__main__"` block), or import and call `evaluate()` from a Python session.
 
-The `tr.py` script automatically generates visualizations:
+### 3. Analyze Training with LLM
+
+After training, analyze the generated report with the offline LLM analyzer:
+
+1) Find the report path printed at the end of training (saved by default under `supervisor/reports/`).
+2) Update `report_path` in `tr.py` to that file path.
+3) Run:
 
 ```bash
 python tr.py
 ```
 
-## Visualization Types
+This will:
+- Load the specified training report
+- Send it to the Ollama LLM for analysis
+- Save the analysis JSON to `supervisor/analyses/`
 
-### Training Visualizations (13 plots)
-
-Generated automatically during training:
-
-1. **Reward Progression** - Reward over episodes with rolling mean
-2. **Episode Length** - Episode length progression
-3. **Energy Trend** - Energy consumption over time
-4. **Height Progression** - Mean height with fall threshold
-5. **Fall Rate** - Rolling fall rate over episodes
-6. **Skill Usage** - Pie and bar charts of skill distribution
-7. **Skill Performance** - Multi-metric comparison by skill
-8. **Skill Timeline** - Skill switching over episodes
-9. **Reward Distribution** - Histogram of reward values
-10. **Height Distribution** - Histogram of height values
-11. **Energy vs Reward** - Scatter plot colored by skill
-12. **Skill Transitions** - Heatmap of skill transition probabilities
-13. **Multi-Metric Overview** - Combined view of key metrics
-
-### Report Visualizations (9 plots)
-
-Generated from training report JSON:
-
-1. **Overall Dashboard** - Key statistics overview
-2. **Skill Comparison** - Performance metrics by skill
-3. **Failure Modes** - Fall type distribution
-4. **Skill Efficiency** - Reward per episode by skill
-5. **Radar Chart** - Multi-dimensional skill comparison
-6. **Episode Counts** - Episode distribution by skill
-7. **Fall Rate by Skill** - Fall rate comparison
-8. **Recovery Analysis** - Recovery skill effectiveness
-9. **Comprehensive Summary** - Full dashboard
-
-### LLM Analysis Visualizations (5 plots)
-
-Generated from LLM analysis JSON:
-
-1. **Confidence Gauge** - Polar gauge showing confidence score
-2. **Suggested Actions** - Visualization of improvement suggestions
-3. **Parameter Changes** - Before/after comparisons
-4. **Action Types** - Distribution of action types
-5. **Analysis Summary** - Comprehensive overview
-
-### Evaluation Visualizations (6 plots)
-
-Generated from evaluation results:
-
-1. **Performance Summary** - Key evaluation metrics
-2. **Trajectories** - Reward, height, length, energy over episodes
-3. **Success Rate** - Success vs failure breakdown
-4. **Reward Distribution** - Histogram of evaluation rewards
-5. **Length Distribution** - Histogram of episode lengths
-6. **Evaluation Dashboard** - Comprehensive evaluation view
-
-## Output Structure
+## Project Structure
 
 ```
-visualizations/outputs/
-├── training/          # Training-time visualizations
-├── reports/           # Report analysis visualizations
-├── llm/               # LLM analysis visualizations
-├── evaluation/        # Evaluation visualizations
-└── dashboards/        # Dashboard summaries
+hermes/
+│
+├── _logging/              # Episode logging and metrics
+│   ├── __init__.py
+│   ├── episode_logger.py  # Collects episode-level statistics
+│   ├── metrics.py         # Physics and observation-based metrics
+│   └── summary_schema.py  # Structured episode summaries
+│
+├── env/                   # Environment setup
+│   ├── __init__.py
+│   ├── humanoid_env.py    # MuJoCo Humanoid-v5 wrapper
+│   └── reward_wrapper.py  # Skill-specific reward shaping
+│
+├── rl/                    # Reinforcement learning
+│   ├── train.py           # Main training script
+│   ├── evaluate.py        # Model evaluation
+│   └── callbacks.py       # Training callbacks (logging, skill switching)
+│
+├── skills/                # Hierarchical skills
+│   ├── base.py            # Base Skill interface
+│   ├── manager.py         # Skill manager (active skill routing)
+│   ├── switcher.py        # Rule-based skill switching logic
+│   ├── stand.py           # Stand skill implementation
+│   ├── walk.py            # Walk skill implementation
+│   └── recover.py         # Recovery skill implementation
+│
+├── supervisor/            # LLM supervision system
+│   ├── analyzer.py        # Offline LLM analyzer
+│   ├── data_build.py      # Report generation from episodes (writes to supervisor/reports)
+│   ├── ollama_client.py   # Ollama LLM client
+│   ├── parser.py          # LLM response parser
+│   ├── prompts.py         # LLM prompts (system/user)
+│   ├── save_analysis.py   # Save analysis results (writes to supervisor/analyses)
+│   ├── reports/           # Generated training reports (JSON)
+│   └── analyses/          # LLM analysis results (JSON)
+│
+├── experiments/           # Saved models
+│   └── base_ppo.zip       # Trained PPO model
+│
+├── tests/                 # Test suite
+│   ├── sanity.py          # Basic sanity checks
+│   └── test_env.py        # Environment tests
+│
+├── tr.py                  # Training report analysis script
+├── requirements.txt       # Python dependencies
+└── README.md             # This file
 ```
 
-## Usage Examples
+## Key Components
 
-### Programmatic Usage
+### 1. Skills System
+
+Skills are modular behaviors with independent reward functions:
+
+#### Stand Skill (`skills/stand.py`)
+- **Goal**: Maintain upright posture
+- **Reward**: Height-based reward with energy penalty
+- **Termination**: Triggers when humanoid falls (height < 0.8m)
+
+#### Walk Skill (`skills/walk.py`)
+- **Goal**: Forward locomotion while maintaining balance
+- **Reward**: Forward velocity + height maintenance - energy penalty
+- **Termination**: Triggers on fall
+
+#### Recover Skill (`skills/recover.py`)
+- **Goal**: Recover from fall to upright position
+- **Reward**: Height increase - energy penalty
+- **Termination**: Triggers when upright again (height >= 0.8m)
+
+### 2. Skill Manager (`skills/manager.py`)
+
+Manages the active skill and routes reward computation:
 
 ```python
-from visualizations.training_analyzer import TrainingAnalyzer
-from visualizations.report_analyzer import ReportAnalyzer
-from visualizations.dashboard import DashboardGenerator
-
-# Training visualizations
-analyzer = TrainingAnalyzer()
-plot_paths = analyzer.analyze(episode_summaries)
-
-# Report visualizations
-report_analyzer = ReportAnalyzer()
-plot_paths = report_analyzer.analyze("path/to/report.json")
-
-# Full dashboard
-dashboard = DashboardGenerator()
-dashboard.generate_full_dashboard(
-    episode_summaries=episodes,
-    report_path="path/to/report.json",
-    analysis_path="path/to/analysis.json"
+skill_manager = SkillManager(
+    skills=[StandSkill(), WalkSkill(), RecoverSkill()],
+    initial_skill="stand"
 )
 ```
 
-## Customization
+### 3. Skill Switcher (`skills/switcher.py`)
 
-### Output Directory
+Rule-based supervisor that switches skills based on episode summaries:
 
-```python
-analyzer = TrainingAnalyzer(output_dir="custom/path")
+- **Stand → Walk**: When mean height > 1.2m and episode length > 50
+- **Walk → Recover**: When fall detected
+- **Recover → Stand**: When upright (height > 1.0m) and no fall
+
+### 4. Episode Logger (`_logging/episode_logger.py`)
+
+Collects comprehensive episode statistics:
+- Total reward
+- Energy consumption (sum of squared actions)
+- Height trajectory
+- Fall detection and classification
+- Episode length
+
+### 5. Metrics (`_logging/metrics.py`)
+
+Provides both observation-based and physics-based metrics:
+
+- **Observation-based**: Fast, uses observation array
+- **Physics-based**: Accurate, uses MuJoCo physics state (`env.data.qpos[2]`)
+
+### 6. LLM Supervisor (`supervisor/`)
+
+Offline analysis system:
+- **EpisodeDatasetBuilder**: Aggregates episode summaries into reports
+- **OfflineAnalyzer**: Sends reports to LLM for analysis
+- **OllamaClient**: Local LLM integration (no API keys needed)
+
+## Workflow
+
+### Training Workflow
+
+1. **Environment Setup**
+   ```python
+   env = make_vec_env(lambda: make_env(skill_manager=skill_manager), n_envs=4)
+   ```
+
+2. **Model Initialization**
+   ```python
+   model = PPO(policy="MlpPolicy", env=env, ...)
+   ```
+
+3. **Callback Setup**
+   ```python
+   callback = HermesLoggingCallback(
+       skill_manager=skill_manager,
+       skill_switcher=skill_switcher,
+       env=env
+   )
+   ```
+
+4. **Training**
+   ```python
+   model.learn(total_timesteps=10_000, callback=callback)
+   ```
+
+5. **Report Generation**
+   ```python
+   builder = EpisodeDatasetBuilder()
+   report_path = builder.build(callback.episode_summaries)
+   ```
+
+### Analysis Workflow
+
+1. **Load Report**
+   ```python
+   analyzer = OfflineAnalyzer(llm_client)
+   analysis = analyzer.analyze("supervisor/reports/run_YYYY-MM-DD_HH-MM-SS.json")
+   ```
+
+2. **Save Analysis**
+   ```python
+   save_analysis(analysis)
+   ```
+
+3. **Review Suggestions**
+   - Check `supervisor/analyses/analysis_*.json`
+   - Review diagnosis and suggested actions
+   - Implement improvements in skill rewards or switching logic
+
+## Usage Examples
+
+### Customizing Training
+
+The provided entrypoint `rl/train.py` uses a default skill set (Stand, Walk, Recover) and `total_timesteps=10_000`. To customize:
+
+- Edit `skills` and `initial_skill` near the top of `rl/train.py`.
+- Adjust PPO hyperparameters and `model.learn(total_timesteps=...)` as needed.
+
+Then run:
+
+```bash
+python -m rl.train
 ```
 
-### Disable Plot Saving
+### Adding a New Skill
 
 ```python
-plot_paths = analyzer.analyze(episodes, save_plots=False)
+from skills.base import Skill
+from _logging.metrics import get_torso_height
+
+class JumpSkill(Skill):
+    def __init__(self):
+        super().__init__("jump")
+    
+    def reward(self, obs, action, env_reward):
+        height = get_torso_height(obs)
+        vertical_velocity = obs[1]  # y-velocity
+        return height + vertical_velocity - 0.001 * np.sum(action ** 2)
+    
+    def termination(self, obs):
+        return get_torso_height(obs) < 1.0  # Terminate when landing
 ```
 
-### Custom Colors
+### Custom Skill Switching Logic
 
-Modify `get_skill_colors()` in `visualizations/utils.py` to customize skill colors.
+```python
+from skills.switcher import SkillSwitcher
 
-## File Formats
+class CustomSkillSwitcher(SkillSwitcher):
+    def decide(self, episode_summary):
+        current = self.skill_manager.name
+        
+        # Custom logic here
+        if current == "stand" and episode_summary["mean_height"] > 1.5:
+            return "walk"
+        
+        return current
+```
 
-All plots are saved as:
-- **PNG** (default, 300 DPI)
-- Can be extended to PDF, SVG via `save_figure()` formats parameter
+### Environment Testing
 
-## Integration
+```bash
+# Test environment setup
+python -m tests.test_env
 
-The visualization system is integrated into:
+# Sanity checks
+python -m tests.sanity
+```
 
-1. **Training Callback** (`rl/callbacks.py`): Auto-generates training plots
-2. **Training Script** (`rl/train.py`): Generates report visualizations
-3. **LLM Analysis** (`tr.py`): Generates LLM analysis visualizations
-4. **Standalone Script** (`visualize.py`): Manual generation tool
+## Development Roadmap
 
-## Requirements
+### Phase 1: Pure RL Baseline ✅
+- [x] Base PPO implementation
+- [x] Environment setup
+- [x] Basic logging
 
-Additional dependencies (already in `requirements.txt`):
-- `matplotlib` - Plotting library
-- `seaborn` - Statistical visualizations
+### Phase 2: Skill PPO (Current)
+- [x] Skill-based reward shaping
+- [x] Skill manager
+- [x] Skill switching logic
+- [x] Episode logging
 
-## Notes
+### Phase 3: Curriculum PPO (Planned)
+- [ ] Staged learning progression
+- [ ] Curriculum scheduling
+- [ ] Progressive difficulty
 
-- Visualizations use non-interactive backend (`Agg`) for server compatibility
-- All plots include proper labels, legends, and grid lines
-- Color schemes are consistent across all visualizations
-- Plots are optimized for publication (300 DPI, tight layout)
+### Phase 4: HERMES PPO (Planned)
+- [ ] Online LLM supervision
+- [ ] Dynamic reward adjustment
+- [ ] Real-time skill switching based on LLM
+- [ ] Adaptive curriculum
 
+## Technical Details
 
+### Observation Space
+- MuJoCo Humanoid-v5 provides observations including:
+  - Position (qpos): Root position, joint angles
+  - Velocity (qvel): Root velocity, joint velocities
+  - Height: Torso z-position (index 2 in qpos)
 
+### Action Space
+- Continuous control: 17-dimensional action space
+- Torque control for all joints
+
+### Reward Structure
+- **Environment Reward**: MuJoCo's default reward (survival, control, impact)
+- **Skill Reward**: Skill-specific shaping (height, velocity, energy)
+
+### Metrics
+- **Torso Height**: `env.data.qpos[2]` (physics-based, accurate)
+- **Energy**: Sum of squared actions (proxy for energy consumption)
+- **Fall Detection**: Height < 0.8m threshold
+- **Fall Classification**: Forward/backward/collapse based on velocity
+
+## Troubleshooting
+
+### Common Issues
+
+1. **MuJoCo Not Found**
+   ```bash
+   pip install mujoco
+   ```
+
+2. **Ollama Not Available**
+   - Install Ollama from https://ollama.ai
+   - Or modify `supervisor/ollama_client.py` to use a different LLM API
+
+3. **CUDA/GPU Issues**
+   - Set `device="cpu"` in PPO initialization if GPU not available
+
+4. **Import Errors**
+   - Ensure you're running from the repository root
+   - Check that all dependencies are installed: `pip install -r requirements.txt`
+
+## Contributing
+
+Contributions are welcome! Please:
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Add tests if applicable
+5. Submit a pull request
+
+## License
+
+[Specify your license here]
+
+## Citation
+
+If you use HERMES in your research, please cite:
+
+```bibtex
+@software{hermes2024,
+  title={HERMES: Hierarchical Embodied Reinforcement Learning with LLM Supervision},
+  author={[Your Name]},
+  year={2024},
+  url={[Repository URL]}
+}
+```
+
+## Acknowledgments
+
+- MuJoCo physics simulator
+- Stable-Baselines3 team
+- OpenAI Gym/Gymnasium
+- Ollama for local LLM support
+
+---
+
+**Note**: This project is currently in active development. The current implementation focuses on Phase 2 (Skill PPO). Future phases will add curriculum learning and online LLM supervision.
