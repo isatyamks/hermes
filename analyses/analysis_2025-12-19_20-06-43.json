@@ -1,0 +1,23 @@
+{
+  "diagnosis": [
+    "Inconsistent balance control might be causing frequent falls.",
+    "Higher mean energy suggests inefficiency in movement optimization."
+  ],
+  "suggested_actions": [
+    {
+      "type": "threshold_adjustment",
+      "parameter": "balance_threshold",
+      "current": null,
+      "suggested": 0.5,
+      "reason": "Improved balance control requires adjustment of this threshold value."
+    },
+    {
+      "type": "curriculum",
+      "parameter": "difficulty_level",
+      "current": 3,
+      "suggested": 2.5,
+      "reason": "Lowering difficulty level could help improve movement optimization and reduce energy consumption."
+    }
+  ],
+  "confidence": 0.8
+}

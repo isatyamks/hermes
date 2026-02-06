@@ -1,4 +1,4 @@
-from env.humanoid_env import make_env
+from envi.humanoid_env import make_env
 
 
 def test_env_step():

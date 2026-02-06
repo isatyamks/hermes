@@ -12,6 +12,12 @@ class StandSkill(Skill):
         energy_penalty = 0.001 * np.sum(action ** 2)
 
         stand_reward = np.clip(height, 0.0, 2.0)
+        #added for report b
+        target_height = 1.3
+        height_error = abs(height - target_height)
+        stability_penalty = 0.5 * height_error
+
+
 
         return stand_reward - energy_penalty
 

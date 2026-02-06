@@ -1,6 +1,7 @@
 from stable_baselines3.common.callbacks import BaseCallback
 from _logging.episode_logger import EpisodeLogger
 import numpy as np
+ 
 
 
 class EpisodeStatsCallback(BaseCallback):
@@ -28,12 +29,23 @@ class EpisodeStatsCallback(BaseCallback):
 
 
 class HermesLoggingCallback(BaseCallback):
-    def __init__(self, verbose=0):
+    def __init__(self, skill_manager, skill_switcher, env=None, verbose=0):
         super().__init__(verbose)
-        self.ep_logger = EpisodeLogger()
+        self.env = env
+        self.ep_logger = None
         self.episode_summaries = []
+        self.skill_manager = skill_manager
+        self.skill_switcher = skill_switcher
+        self.training_analyzer = None
 
     def _on_step(self) -> bool:
+        if self.ep_logger is None:
+            if self.env is not None:
+                env0 = self.env.envs[0] if hasattr(self.env, 'envs') else self.env
+            else:
+                env0 = self.training_env.envs[0]
+            self.ep_logger = EpisodeLogger(env0)
+        
         obs = self.locals["new_obs"]
         actions = self.locals["actions"]
         rewards = self.locals["rewards"]
@@ -45,7 +57,19 @@ class HermesLoggingCallback(BaseCallback):
 
             if dones[i]:
                 summary = self.ep_logger.summary()
-                summary["skill"] = infos[i].get("active_skill", None)
+                summary["skill"] = infos[i].get(
+                    "active_skill", self.skill_manager.name
+                )
+
+                next_skill = self.skill_switcher.decide(summary)
+
+                if next_skill != self.skill_manager.name:
+                    print(
+                        f"Skill switch: "
+                        f"{self.skill_manager.name} → {next_skill}"
+                    )
+                    self.skill_manager.set_skill(next_skill)
+
                 self.episode_summaries.append(summary)
                 self.ep_logger.reset()
 
@@ -55,3 +79,5 @@ class HermesLoggingCallback(BaseCallback):
         print("\nSample Episode Summaries:")
         for s in self.episode_summaries[:5]:
             print(s)
+
+        return

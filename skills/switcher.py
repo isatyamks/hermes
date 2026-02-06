@@ -12,7 +12,7 @@ class SkillSwitcher:
 
         
         if current == "stand":
-            if mean_height > 1.2 and length > 50:
+            if mean_height > 1.3 and length > 80:
                 return "walk"
 
         

@@ -1,7 +1,7 @@
 import time
 from stable_baselines3 import PPO
 
-from env.humanoid_env import make_env
+from envi.humanoid_env import make_env
 
 
 def evaluate(model_path="experiments/base_ppo", episodes=3):

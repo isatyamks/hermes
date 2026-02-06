@@ -1,0 +1,6650 @@
+{
+  "run_metadata": {
+    "timestamp": "2025-12-19T20:28:12.769104",
+    "total_episodes": 736,
+    "skills_seen": [
+      "stand"
+    ]
+  },
+  "overall_stats": {
+    "mean_reward": 0.6124048829078674,
+    "mean_episode_length": 22.258152173913043,
+    "mean_height": 1.2553763586956521,
+    "fall_rate": 0.0
+  },
+  "skill_stats": {
+    "stand": {
+      "episodes": 736,
+      "mean_reward": 0.6124048829078674,
+      "mean_height": 1.2553763586956521,
+      "fall_rate": 0.0
+    }
+  },
+  "failure_modes": {},
+  "episodes": [
+    {
+      "total_reward": 0.6899999976158142,
+      "episode_length": 61,
+      "energy": 1079.05,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.252,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.05999999865889549,
+      "episode_length": 1,
+      "energy": 11.64,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.401,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.20000000298023224,
+      "episode_length": 5,
+      "energy": 105.46,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.399,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.009999999776482582,
+      "episode_length": 61,
+      "energy": 1061.97,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.237,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.019999999552965164,
+      "episode_length": 1,
+      "energy": 24.89,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.401,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.05000000074505806,
+      "episode_length": 33,
+      "energy": 574.82,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.36,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.5,
+      "episode_length": 37,
+      "energy": 673.78,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.201,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.019999999552965164,
+      "episode_length": 1,
+      "energy": 15.96,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.176,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 2.5799999237060547,
+      "episode_length": 46,
+      "energy": 775.78,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.116,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.10999999940395355,
+      "episode_length": 3,
+      "energy": 58.4,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.144,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 2.6700000762939453,
+      "episode_length": 63,
+      "energy": 1125.95,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.284,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.20999999344348907,
+      "episode_length": 6,
+      "energy": 95.93,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.069,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.3499999940395355,
+      "episode_length": 7,
+      "energy": 98.3,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.081,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.3400000035762787,
+      "episode_length": 6,
+      "energy": 113.95,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.391,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.28999999165534973,
+      "episode_length": 49,
+      "energy": 850.73,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.27,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.0,
+      "episode_length": 9,
+      "energy": 184.17,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.089,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.03999999910593033,
+      "episode_length": 13,
+      "energy": 221.14,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.391,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.7799999713897705,
+      "episode_length": 49,
+      "energy": 814.56,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.223,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.3199999928474426,
+      "episode_length": 2,
+      "energy": 35.01,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.208,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.20000000298023224,
+      "episode_length": 3,
+      "energy": 47.04,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.393,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.30000001192092896,
+      "episode_length": 50,
+      "energy": 787.77,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.31,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.5899999737739563,
+      "episode_length": 22,
+      "energy": 433.62,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.124,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.6600000262260437,
+      "episode_length": 17,
+      "energy": 272.47,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.061,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.7200000286102295,
+      "episode_length": 25,
+      "energy": 403.46,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.364,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.15000000596046448,
+      "episode_length": 5,
+      "energy": 89.34,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.298,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.2599999904632568,
+      "episode_length": 34,
+      "energy": 629.58,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.156,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.38999998569488525,
+      "episode_length": 7,
+      "energy": 142.24,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.399,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.44999998807907104,
+      "episode_length": 22,
+      "energy": 409.62,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.371,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.07000000029802322,
+      "episode_length": 43,
+      "energy": 749.59,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.185,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.1599999964237213,
+      "episode_length": 6,
+      "energy": 121.52,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.409,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.0,
+      "episode_length": 1,
+      "energy": 30.18,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.408,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.009999999776482582,
+      "episode_length": 67,
+      "energy": 1162.99,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.261,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.05000000074505806,
+      "episode_length": 2,
+      "energy": 41.44,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.197,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.05000000074505806,
+      "episode_length": 3,
+      "energy": 55.35,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.392,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.05000000074505806,
+      "episode_length": 42,
+      "energy": 680.48,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.332,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.019999999552965164,
+      "episode_length": 21,
+      "energy": 365.32,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.16,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.07999999821186066,
+      "episode_length": 10,
+      "energy": 174.98,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.082,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.009999999776482582,
+      "episode_length": 3,
+      "energy": 48.78,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.392,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.029999999329447746,
+      "episode_length": 34,
+      "energy": 545.45,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.356,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.12999999523162842,
+      "episode_length": 46,
+      "energy": 759.26,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.254,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.03999999910593033,
+      "episode_length": 19,
+      "energy": 274.31,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.206,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.25999999046325684,
+      "episode_length": 38,
+      "energy": 691.82,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.119,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.05000000074505806,
+      "episode_length": 5,
+      "energy": 58.37,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.393,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.3799999952316284,
+      "episode_length": 18,
+      "energy": 292.85,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.37,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.10999999940395355,
+      "episode_length": 11,
+      "energy": 197.7,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.303,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.4800000190734863,
+      "episode_length": 39,
+      "energy": 672.82,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.254,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.550000011920929,
+      "episode_length": 18,
+      "energy": 317.91,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.204,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.7900000214576721,
+      "episode_length": 15,
+      "energy": 271.01,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.126,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.7799999713897705,
+      "episode_length": 18,
+      "energy": 342.45,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.067,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.8799999952316284,
+      "episode_length": 66,
+      "energy": 1146.17,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.293,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.019999999552965164,
+      "episode_length": 9,
+      "energy": 127.24,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.066,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.009999999776482582,
+      "episode_length": 5,
+      "energy": 102.0,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.094,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.019999999552965164,
+      "episode_length": 17,
+      "energy": 272.69,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.389,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.36000001430511475,
+      "episode_length": 62,
+      "energy": 1076.08,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.287,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.11999999731779099,
+      "episode_length": 6,
+      "energy": 97.69,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.229,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.6700000166893005,
+      "episode_length": 21,
+      "energy": 362.3,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.191,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.4699999988079071,
+      "episode_length": 18,
+      "energy": 331.21,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.098,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.4600000381469727,
+      "episode_length": 33,
+      "energy": 530.67,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.362,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.03999999910593033,
+      "episode_length": 13,
+      "energy": 199.5,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.256,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.05000000074505806,
+      "episode_length": 17,
+      "energy": 298.67,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.161,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.1599999964237213,
+      "episode_length": 13,
+      "energy": 233.36,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.072,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.149999976158142,
+      "episode_length": 29,
+      "energy": 455.99,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.38,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.0,
+      "episode_length": 34,
+      "energy": 519.91,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.264,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.6000000238418579,
+      "episode_length": 15,
+      "energy": 228.49,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.2,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.9900000095367432,
+      "episode_length": 26,
+      "energy": 423.64,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.107,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.029999999329447746,
+      "episode_length": 13,
+      "energy": 215.55,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.386,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.05999999865889549,
+      "episode_length": 34,
+      "energy": 637.6,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.284,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.36000001430511475,
+      "episode_length": 29,
+      "energy": 553.63,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.118,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.23000000417232513,
+      "episode_length": 6,
+      "energy": 100.99,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.4,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.09000000357627869,
+      "episode_length": 3,
+      "energy": 30.95,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.396,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.699999988079071,
+      "episode_length": 30,
+      "energy": 492.5,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.333,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.05999999865889549,
+      "episode_length": 33,
+      "energy": 585.32,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.124,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.1599999964237213,
+      "episode_length": 18,
+      "energy": 286.89,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.388,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.699999988079071,
+      "episode_length": 27,
+      "energy": 455.63,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.302,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.6800000071525574,
+      "episode_length": 18,
+      "energy": 285.12,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.135,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.09000000357627869,
+      "episode_length": 9,
+      "energy": 144.28,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.061,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.009999999776482582,
+      "episode_length": 14,
+      "energy": 208.41,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.393,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.3199999928474426,
+      "episode_length": 54,
+      "energy": 879.27,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.224,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.019999999552965164,
+      "episode_length": 11,
+      "energy": 225.32,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.403,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.009999999776482582,
+      "episode_length": 7,
+      "energy": 113.04,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.391,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.009999999776482582,
+      "episode_length": 15,
+      "energy": 214.75,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.359,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.9200000166893005,
+      "episode_length": 50,
+      "energy": 875.62,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.274,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.0399999618530273,
+      "episode_length": 26,
+      "energy": 444.33,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.249,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 2.369999885559082,
+      "episode_length": 47,
+      "energy": 846.34,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.146,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.3799999952316284,
+      "episode_length": 6,
+      "energy": 119.4,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.391,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.4299999475479126,
+      "episode_length": 29,
+      "energy": 491.84,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.346,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.9800000190734863,
+      "episode_length": 33,
+      "energy": 521.99,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.148,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.3100000023841858,
+      "episode_length": 6,
+      "energy": 87.01,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.397,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.7200000286102295,
+      "episode_length": 31,
+      "energy": 546.95,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.332,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.699999988079071,
+      "episode_length": 30,
+      "energy": 510.43,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.25,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.25,
+      "episode_length": 7,
+      "energy": 106.76,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.222,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.3200000524520874,
+      "episode_length": 34,
+      "energy": 571.02,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.132,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.590000033378601,
+      "episode_length": 31,
+      "energy": 510.04,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.373,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.1899999976158142,
+      "episode_length": 3,
+      "energy": 57.05,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.312,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.6700000166893005,
+      "episode_length": 15,
+      "energy": 265.46,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.263,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.029999999329447746,
+      "episode_length": 31,
+      "energy": 608.65,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.124,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.3199999928474426,
+      "episode_length": 22,
+      "energy": 356.83,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.393,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.03999999910593033,
+      "episode_length": 15,
+      "energy": 221.65,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.315,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.05000000074505806,
+      "episode_length": 6,
+      "energy": 107.99,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.248,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.6799999475479126,
+      "episode_length": 49,
+      "energy": 835.61,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.119,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.7699999809265137,
+      "episode_length": 13,
+      "energy": 246.64,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.384,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 2.450000047683716,
+      "episode_length": 26,
+      "energy": 432.32,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.305,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 2.4600000381469727,
+      "episode_length": 25,
+      "energy": 468.64,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.132,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.41999998688697815,
+      "episode_length": 2,
+      "energy": 29.9,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.4,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.41999998688697815,
+      "episode_length": 41,
+      "energy": 713.1,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.328,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.3700000047683716,
+      "episode_length": 14,
+      "energy": 239.06,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.137,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.4099999964237213,
+      "episode_length": 11,
+      "energy": 179.07,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.071,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.07999999821186066,
+      "episode_length": 2,
+      "energy": 30.0,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.397,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.029999999329447746,
+      "episode_length": 41,
+      "energy": 698.25,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.342,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.009999999776482582,
+      "episode_length": 26,
+      "energy": 461.4,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.225,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.4399999976158142,
+      "episode_length": 35,
+      "energy": 598.96,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.114,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.4399999976158142,
+      "episode_length": 14,
+      "energy": 221.79,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.393,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.23000000417232513,
+      "episode_length": 5,
+      "energy": 87.86,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.366,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.11999999731779099,
+      "episode_length": 14,
+      "energy": 207.95,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.309,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 2.009999990463257,
+      "episode_length": 45,
+      "energy": 750.47,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.155,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.11999999731779099,
+      "episode_length": 2,
+      "energy": 36.95,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.213,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.03999999910593033,
+      "episode_length": 33,
+      "energy": 546.48,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.362,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.33000001311302185,
+      "episode_length": 33,
+      "energy": 545.77,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.2,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.20999999344348907,
+      "episode_length": 14,
+      "energy": 235.06,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.065,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.23000000417232513,
+      "episode_length": 7,
+      "energy": 116.65,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.396,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.6100000143051147,
+      "episode_length": 14,
+      "energy": 248.21,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.381,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.8899999856948853,
+      "episode_length": 33,
+      "energy": 539.83,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.273,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.0,
+      "episode_length": 18,
+      "energy": 298.46,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.084,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.0499999523162842,
+      "episode_length": 41,
+      "energy": 738.54,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.349,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.699999988079071,
+      "episode_length": 13,
+      "energy": 249.67,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.237,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.009999999776482582,
+      "episode_length": 5,
+      "energy": 93.02,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.205,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.5600000023841858,
+      "episode_length": 33,
+      "energy": 525.21,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.12,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.5799999833106995,
+      "episode_length": 17,
+      "energy": 267.96,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.387,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.18000000715255737,
+      "episode_length": 22,
+      "energy": 384.04,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.331,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.029999999329447746,
+      "episode_length": 27,
+      "energy": 473.62,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.139,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.019999999552965164,
+      "episode_length": 2,
+      "energy": 24.53,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.208,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.07000000029802322,
+      "episode_length": 29,
+      "energy": 476.52,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.358,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.4000000059604645,
+      "episode_length": 22,
+      "energy": 351.7,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.236,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.8999999761581421,
+      "episode_length": 19,
+      "energy": 309.49,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.148,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.8299999833106995,
+      "episode_length": 23,
+      "energy": 411.16,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.076,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.10000000149011612,
+      "episode_length": 3,
+      "energy": 53.72,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.145,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.4300000071525574,
+      "episode_length": 27,
+      "energy": 448.81,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.387,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 3.7100000381469727,
+      "episode_length": 57,
+      "energy": 945.41,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.177,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.699999988079071,
+      "episode_length": 7,
+      "energy": 113.34,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.392,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.4399999976158142,
+      "episode_length": 6,
+      "energy": 140.6,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.384,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 2.259999990463257,
+      "episode_length": 29,
+      "energy": 515.33,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.335,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.7100000381469727,
+      "episode_length": 33,
+      "energy": 582.84,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.18,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.6399999856948853,
+      "episode_length": 13,
+      "energy": 238.77,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.08,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.07999999821186066,
+      "episode_length": 5,
+      "energy": 94.96,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.406,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.9399999976158142,
+      "episode_length": 25,
+      "energy": 403.5,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.35,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.090000033378601,
+      "episode_length": 25,
+      "energy": 444.37,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.179,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.0,
+      "episode_length": 13,
+      "energy": 207.48,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.074,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.30000001192092896,
+      "episode_length": 26,
+      "energy": 422.86,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.388,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.009999999776482582,
+      "episode_length": 19,
+      "energy": 340.61,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.309,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.1599999964237213,
+      "episode_length": 39,
+      "energy": 720.48,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.129,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.1899999976158142,
+      "episode_length": 15,
+      "energy": 217.64,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.392,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.25999999046325684,
+      "episode_length": 10,
+      "energy": 144.87,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.367,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.0099999904632568,
+      "episode_length": 25,
+      "energy": 439.79,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.283,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 2.799999952316284,
+      "episode_length": 37,
+      "energy": 667.03,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.126,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.1899999976158142,
+      "episode_length": 1,
+      "energy": 15.7,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.402,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.100000023841858,
+      "episode_length": 29,
+      "energy": 481.52,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.383,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.07999999821186066,
+      "episode_length": 21,
+      "energy": 342.61,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.269,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.12999999523162842,
+      "episode_length": 13,
+      "energy": 214.91,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.121,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.1599999964237213,
+      "episode_length": 9,
+      "energy": 152.02,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.078,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.6000000238418579,
+      "episode_length": 25,
+      "energy": 405.7,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.378,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.5699999928474426,
+      "episode_length": 25,
+      "energy": 425.97,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.238,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.18000000715255737,
+      "episode_length": 9,
+      "energy": 151.36,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.106,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.03999999910593033,
+      "episode_length": 9,
+      "energy": 157.7,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.063,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.5799999833106995,
+      "episode_length": 46,
+      "energy": 763.95,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.316,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.12999999523162842,
+      "episode_length": 18,
+      "energy": 352.92,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.115,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.019999999552965164,
+      "episode_length": 5,
+      "energy": 78.26,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.398,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.75,
+      "episode_length": 53,
+      "energy": 847.94,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.254,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.12999999523162842,
+      "episode_length": 1,
+      "energy": 14.04,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.097,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.0,
+      "episode_length": 6,
+      "energy": 86.69,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.063,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.029999999329447746,
+      "episode_length": 7,
+      "energy": 100.44,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.079,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.340000033378601,
+      "episode_length": 58,
+      "energy": 1032.53,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.283,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.30000001192092896,
+      "episode_length": 9,
+      "energy": 156.92,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.117,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.11999999731779099,
+      "episode_length": 2,
+      "energy": 24.07,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.091,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.0,
+      "episode_length": 19,
+      "energy": 339.08,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.07,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.019999999552965164,
+      "episode_length": 58,
+      "energy": 1044.25,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.321,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.029999999329447746,
+      "episode_length": 7,
+      "energy": 95.03,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.195,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.1899999976158142,
+      "episode_length": 34,
+      "energy": 560.1,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.123,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.10000000149011612,
+      "episode_length": 9,
+      "energy": 155.94,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.057,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.07000000029802322,
+      "episode_length": 30,
+      "energy": 535.16,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.367,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.009999999776482582,
+      "episode_length": 3,
+      "energy": 43.73,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.3,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.03999999910593033,
+      "episode_length": 26,
+      "energy": 459.73,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.217,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.009999999776482582,
+      "episode_length": 17,
+      "energy": 318.85,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.096,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.1799999475479126,
+      "episode_length": 51,
+      "energy": 873.49,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.321,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.7400000095367432,
+      "episode_length": 17,
+      "energy": 307.47,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.086,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.5,
+      "episode_length": 10,
+      "energy": 188.05,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.402,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.15000000596046448,
+      "episode_length": 3,
+      "energy": 54.6,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.39,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.8100000023841858,
+      "episode_length": 46,
+      "energy": 809.4,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.276,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.41999998688697815,
+      "episode_length": 21,
+      "energy": 360.93,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.103,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.009999999776482582,
+      "episode_length": 5,
+      "energy": 87.88,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.4,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.059999942779541,
+      "episode_length": 41,
+      "energy": 784.96,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.319,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 2.6600000858306885,
+      "episode_length": 34,
+      "energy": 538.61,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.107,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.27000001072883606,
+      "episode_length": 5,
+      "energy": 89.29,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.395,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.07000000029802322,
+      "episode_length": 10,
+      "energy": 185.4,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.388,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.8899999856948853,
+      "episode_length": 43,
+      "energy": 706.27,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.238,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.12999999523162842,
+      "episode_length": 6,
+      "energy": 98.9,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.098,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 3.309999942779541,
+      "episode_length": 55,
+      "energy": 907.43,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.328,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.7200000286102295,
+      "episode_length": 18,
+      "energy": 278.13,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.174,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.3799999952316284,
+      "episode_length": 5,
+      "energy": 87.12,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.124,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.17000000178813934,
+      "episode_length": 18,
+      "energy": 264.36,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.081,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.309999942779541,
+      "episode_length": 46,
+      "energy": 851.94,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.327,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.6299999952316284,
+      "episode_length": 17,
+      "energy": 303.02,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.099,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.1599999964237213,
+      "episode_length": 5,
+      "energy": 53.44,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.081,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 2.4000000953674316,
+      "episode_length": 41,
+      "energy": 808.44,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.359,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.05000000074505806,
+      "episode_length": 1,
+      "energy": 23.43,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.276,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.029999999329447746,
+      "episode_length": 13,
+      "energy": 215.42,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.253,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 2.2699999809265137,
+      "episode_length": 71,
+      "energy": 1204.48,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.217,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.20999999344348907,
+      "episode_length": 3,
+      "energy": 64.86,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.137,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.3600000143051147,
+      "episode_length": 30,
+      "energy": 574.53,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.086,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.2999999523162842,
+      "episode_length": 21,
+      "energy": 312.13,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.059,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.2199999988079071,
+      "episode_length": 14,
+      "energy": 270.99,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.399,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.17000000178813934,
+      "episode_length": 7,
+      "energy": 114.68,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.383,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.8199999928474426,
+      "episode_length": 42,
+      "energy": 770.1,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.281,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.8899999856948853,
+      "episode_length": 15,
+      "energy": 239.66,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.191,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.7799999713897705,
+      "episode_length": 22,
+      "energy": 376.99,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.097,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.3499999940395355,
+      "episode_length": 25,
+      "energy": 404.5,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.387,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.36000001430511475,
+      "episode_length": 10,
+      "energy": 140.73,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.336,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 5.090000152587891,
+      "episode_length": 70,
+      "energy": 1299.49,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.219,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 2.680000066757202,
+      "episode_length": 25,
+      "energy": 429.15,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.115,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.0,
+      "episode_length": 10,
+      "energy": 147.66,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.057,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.399999976158142,
+      "episode_length": 69,
+      "energy": 1088.13,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.299,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.05999999865889549,
+      "episode_length": 5,
+      "energy": 84.75,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.137,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.27000001072883606,
+      "episode_length": 13,
+      "energy": 208.61,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.102,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.30000001192092896,
+      "episode_length": 9,
+      "energy": 144.46,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.086,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.2800000011920929,
+      "episode_length": 41,
+      "energy": 641.41,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.344,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.190000057220459,
+      "episode_length": 54,
+      "energy": 960.9,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.232,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.10000000149011612,
+      "episode_length": 3,
+      "energy": 37.31,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.157,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.38999998569488525,
+      "episode_length": 11,
+      "energy": 198.78,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.125,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 3.2200000286102295,
+      "episode_length": 54,
+      "energy": 907.35,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.081,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.7599999904632568,
+      "episode_length": 9,
+      "energy": 144.49,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.057,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.1599999964237213,
+      "episode_length": 5,
+      "energy": 104.04,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.398,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.1599999964237213,
+      "episode_length": 1,
+      "energy": 23.12,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.397,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.12999999523162842,
+      "episode_length": 57,
+      "energy": 991.51,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.292,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.5400000214576721,
+      "episode_length": 25,
+      "energy": 448.49,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.09,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.009999999776482582,
+      "episode_length": 5,
+      "energy": 97.44,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.408,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.8100000023841858,
+      "episode_length": 41,
+      "energy": 637.24,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.323,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.3700000047683716,
+      "episode_length": 9,
+      "energy": 124.07,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.161,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.6499999761581421,
+      "episode_length": 13,
+      "energy": 227.74,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.084,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.029999999329447746,
+      "episode_length": 17,
+      "energy": 298.6,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.4,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.0,
+      "episode_length": 29,
+      "energy": 447.94,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.316,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.18000000715255737,
+      "episode_length": 30,
+      "energy": 495.65,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.143,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.0,
+      "episode_length": 7,
+      "energy": 128.03,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.404,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.019999999552965164,
+      "episode_length": 6,
+      "energy": 102.8,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.392,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.27000001072883606,
+      "episode_length": 25,
+      "energy": 360.56,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.327,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.8399999737739563,
+      "episode_length": 34,
+      "energy": 567.61,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.135,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.009999999776482582,
+      "episode_length": 3,
+      "energy": 63.99,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.396,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.019999999552965164,
+      "episode_length": 10,
+      "energy": 175.55,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.388,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.28999999165534973,
+      "episode_length": 25,
+      "energy": 404.44,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.315,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.5799999833106995,
+      "episode_length": 26,
+      "energy": 441.73,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.136,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.12999999523162842,
+      "episode_length": 17,
+      "energy": 255.47,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.382,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.009999999776482582,
+      "episode_length": 2,
+      "energy": 31.63,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.358,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.019999999552965164,
+      "episode_length": 63,
+      "energy": 1062.63,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.185,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.0,
+      "episode_length": 2,
+      "energy": 32.83,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.206,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.0,
+      "episode_length": 9,
+      "energy": 177.99,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.388,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.20999999344348907,
+      "episode_length": 54,
+      "energy": 927.22,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.304,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.11999999731779099,
+      "episode_length": 15,
+      "energy": 213.3,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.239,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.7900000214576721,
+      "episode_length": 43,
+      "energy": 742.06,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.138,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.05000000074505806,
+      "episode_length": 3,
+      "energy": 39.5,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.146,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.949999988079071,
+      "episode_length": 27,
+      "energy": 432.67,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.371,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.10999999940395355,
+      "episode_length": 3,
+      "energy": 43.7,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.294,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 2.450000047683716,
+      "episode_length": 59,
+      "energy": 1042.37,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.258,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.0,
+      "episode_length": 5,
+      "energy": 112.09,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.216,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.05000000074505806,
+      "episode_length": 21,
+      "energy": 352.91,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.152,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.009999999776482582,
+      "episode_length": 9,
+      "energy": 145.99,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.077,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.03999999910593033,
+      "episode_length": 38,
+      "energy": 638.14,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.356,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.28999999165534973,
+      "episode_length": 34,
+      "energy": 585.41,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.139,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.0,
+      "episode_length": 1,
+      "energy": 14.2,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.398,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.699999988079071,
+      "episode_length": 77,
+      "energy": 1371.05,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.231,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.0,
+      "episode_length": 1,
+      "energy": 15.07,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.037,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.029999999329447746,
+      "episode_length": 5,
+      "energy": 80.74,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.085,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.25999999046325684,
+      "episode_length": 17,
+      "energy": 281.91,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.401,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 2.619999885559082,
+      "episode_length": 72,
+      "energy": 1249.46,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.246,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.6299999952316284,
+      "episode_length": 18,
+      "energy": 253.9,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.1,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.18000000715255737,
+      "episode_length": 3,
+      "energy": 47.17,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.046,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.07999999821186066,
+      "episode_length": 10,
+      "energy": 189.7,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.056,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.2899999618530273,
+      "episode_length": 41,
+      "energy": 685.52,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.362,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.17000000178813934,
+      "episode_length": 10,
+      "energy": 154.86,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.269,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.18000000715255737,
+      "episode_length": 11,
+      "energy": 150.99,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.228,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.5699999928474426,
+      "episode_length": 30,
+      "energy": 508.12,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.12,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.7200000286102295,
+      "episode_length": 17,
+      "energy": 288.5,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.394,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.6700000166893005,
+      "episode_length": 10,
+      "energy": 179.02,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.353,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.36000001430511475,
+      "episode_length": 15,
+      "energy": 268.17,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.291,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 2.009999990463257,
+      "episode_length": 42,
+      "energy": 692.71,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.139,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.6200000047683716,
+      "episode_length": 27,
+      "energy": 440.35,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.376,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.7100000381469727,
+      "episode_length": 27,
+      "energy": 410.46,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.268,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.4600000381469727,
+      "episode_length": 19,
+      "energy": 348.62,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.173,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.75,
+      "episode_length": 35,
+      "energy": 593.6,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.099,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.4399999976158142,
+      "episode_length": 10,
+      "energy": 192.28,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.392,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.15000000596046448,
+      "episode_length": 1,
+      "energy": 12.03,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.387,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.8299999833106995,
+      "episode_length": 30,
+      "energy": 513.65,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.318,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.1299999952316284,
+      "episode_length": 27,
+      "energy": 489.3,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.133,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.3700000047683716,
+      "episode_length": 11,
+      "energy": 212.36,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.401,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.44999998807907104,
+      "episode_length": 39,
+      "energy": 656.76,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.297,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.2800000011920929,
+      "episode_length": 11,
+      "energy": 183.96,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.09,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.10999999940395355,
+      "episode_length": 3,
+      "energy": 70.47,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.154,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 2.630000114440918,
+      "episode_length": 61,
+      "energy": 1043.32,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.288,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.6700000166893005,
+      "episode_length": 34,
+      "energy": 538.1,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.122,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.009999999776482582,
+      "episode_length": 13,
+      "energy": 209.99,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.064,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.0,
+      "episode_length": 10,
+      "energy": 142.18,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.388,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.7300000190734863,
+      "episode_length": 57,
+      "energy": 997.71,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.24,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.23999999463558197,
+      "episode_length": 5,
+      "energy": 82.47,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.084,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.009999999776482582,
+      "episode_length": 6,
+      "energy": 112.25,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.4,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.029999999329447746,
+      "episode_length": 27,
+      "energy": 463.85,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.37,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.4000000059604645,
+      "episode_length": 34,
+      "energy": 601.32,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.254,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.05999999865889549,
+      "episode_length": 27,
+      "energy": 447.65,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.158,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.009999999776482582,
+      "episode_length": 3,
+      "energy": 51.09,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.097,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.029999999329447746,
+      "episode_length": 15,
+      "energy": 253.22,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.073,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.7099999785423279,
+      "episode_length": 51,
+      "energy": 870.09,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.332,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.11999999731779099,
+      "episode_length": 3,
+      "energy": 57.79,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.165,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.4300000071525574,
+      "episode_length": 22,
+      "energy": 379.52,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.088,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.2199999988079071,
+      "episode_length": 13,
+      "energy": 202.3,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.403,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.4099999964237213,
+      "episode_length": 30,
+      "energy": 549.77,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.317,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.07000000029802322,
+      "episode_length": 7,
+      "energy": 113.01,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.255,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.6000000238418579,
+      "episode_length": 54,
+      "energy": 965.68,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.174,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.019999999552965164,
+      "episode_length": 11,
+      "energy": 191.09,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.402,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.019999999552965164,
+      "episode_length": 19,
+      "energy": 322.23,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.363,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.30000001192092896,
+      "episode_length": 23,
+      "energy": 335.14,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.258,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.75,
+      "episode_length": 23,
+      "energy": 389.96,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.092,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.409999966621399,
+      "episode_length": 30,
+      "energy": 477.7,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.367,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.36000001430511475,
+      "episode_length": 19,
+      "energy": 305.08,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.241,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.6899999976158142,
+      "episode_length": 19,
+      "energy": 353.51,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.102,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.699999988079071,
+      "episode_length": 34,
+      "energy": 537.45,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.374,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.019999999552965164,
+      "episode_length": 9,
+      "energy": 173.19,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.292,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.0,
+      "episode_length": 6,
+      "energy": 112.62,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.25,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.3799999952316284,
+      "episode_length": 51,
+      "energy": 865.39,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.148,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.019999999552965164,
+      "episode_length": 14,
+      "energy": 252.04,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.391,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.0,
+      "episode_length": 1,
+      "energy": 14.56,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.381,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.029999999329447746,
+      "episode_length": 6,
+      "energy": 120.88,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.364,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.7300000190734863,
+      "episode_length": 90,
+      "energy": 1514.99,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.227,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 2.1500000953674316,
+      "episode_length": 25,
+      "energy": 446.94,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.068,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.36000001430511475,
+      "episode_length": 6,
+      "energy": 92.45,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.401,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.05000000074505806,
+      "episode_length": 15,
+      "energy": 277.9,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.38,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.3199999928474426,
+      "episode_length": 26,
+      "energy": 452.7,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.288,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.6700000166893005,
+      "episode_length": 25,
+      "energy": 427.67,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.125,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.07999999821186066,
+      "episode_length": 6,
+      "energy": 120.39,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.391,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.15000000596046448,
+      "episode_length": 11,
+      "energy": 164.27,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.38,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.009999999776482582,
+      "episode_length": 26,
+      "energy": 482.09,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.306,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.05000000074505806,
+      "episode_length": 29,
+      "energy": 461.14,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.124,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.25,
+      "episode_length": 17,
+      "energy": 300.52,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.395,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.28999999165534973,
+      "episode_length": 17,
+      "energy": 316.07,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.329,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.5700000524520874,
+      "episode_length": 29,
+      "energy": 498.92,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.239,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 2.0199999809265137,
+      "episode_length": 37,
+      "energy": 670.02,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.131,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.5699999928474426,
+      "episode_length": 6,
+      "energy": 118.76,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.404,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.559999942779541,
+      "episode_length": 29,
+      "energy": 529.8,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.367,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.5299999713897705,
+      "episode_length": 6,
+      "energy": 129.51,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.284,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.11999999731779099,
+      "episode_length": 31,
+      "energy": 491.52,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.142,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.009999999776482582,
+      "episode_length": 6,
+      "energy": 96.59,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.39,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.1599999964237213,
+      "episode_length": 35,
+      "energy": 535.67,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.325,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.33000001311302185,
+      "episode_length": 31,
+      "energy": 539.87,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.117,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.1899999976158142,
+      "episode_length": 11,
+      "energy": 158.03,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.398,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.4399999976158142,
+      "episode_length": 15,
+      "energy": 278.87,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.361,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 2.990000009536743,
+      "episode_length": 55,
+      "energy": 943.71,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.207,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.6700000166893005,
+      "episode_length": 11,
+      "energy": 196.98,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.076,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.15000000596046448,
+      "episode_length": 6,
+      "energy": 97.97,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.401,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.5299999713897705,
+      "episode_length": 9,
+      "energy": 137.59,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.39,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.30000001192092896,
+      "episode_length": 53,
+      "energy": 830.79,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.229,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.05000000074505806,
+      "episode_length": 10,
+      "energy": 184.62,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.388,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.009999999776482582,
+      "episode_length": 5,
+      "energy": 81.31,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.369,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.019999999552965164,
+      "episode_length": 14,
+      "energy": 204.44,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.323,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.8200000524520874,
+      "episode_length": 68,
+      "energy": 1096.35,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.199,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.3199999928474426,
+      "episode_length": 11,
+      "energy": 198.57,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.069,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.38999998569488525,
+      "episode_length": 15,
+      "energy": 282.66,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.395,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.6600000262260437,
+      "episode_length": 19,
+      "energy": 360.83,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.342,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.03999999910593033,
+      "episode_length": 23,
+      "energy": 383.18,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.214,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.05999999865889549,
+      "episode_length": 27,
+      "energy": 493.82,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.1,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.019999999552965164,
+      "episode_length": 11,
+      "energy": 189.53,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.397,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.17000000178813934,
+      "episode_length": 27,
+      "energy": 477.09,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.346,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.5,
+      "episode_length": 11,
+      "energy": 179.88,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.229,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.7400000095367432,
+      "episode_length": 27,
+      "energy": 523.9,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.118,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.23999999463558197,
+      "episode_length": 15,
+      "energy": 262.79,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.389,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.05999999865889549,
+      "episode_length": 11,
+      "energy": 188.67,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.358,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.07000000029802322,
+      "episode_length": 42,
+      "energy": 706.64,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.184,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.029999999329447746,
+      "episode_length": 5,
+      "energy": 96.76,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.409,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.7599999904632568,
+      "episode_length": 26,
+      "energy": 440.28,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.381,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.25,
+      "episode_length": 42,
+      "energy": 709.57,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.254,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.0,
+      "episode_length": 1,
+      "energy": 14.34,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.197,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.75,
+      "episode_length": 25,
+      "energy": 448.92,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.158,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.9900000095367432,
+      "episode_length": 29,
+      "energy": 460.19,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.083,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 3.259999990463257,
+      "episode_length": 39,
+      "energy": 691.98,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.342,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 2.2200000286102295,
+      "episode_length": 25,
+      "energy": 433.7,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.11,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.9300000071525574,
+      "episode_length": 10,
+      "energy": 153.81,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.388,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.9700000286102295,
+      "episode_length": 15,
+      "energy": 247.21,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.354,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.10000000149011612,
+      "episode_length": 18,
+      "energy": 328.7,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.286,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 2.130000114440918,
+      "episode_length": 50,
+      "energy": 846.99,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.149,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.4399999976158142,
+      "episode_length": 7,
+      "energy": 111.7,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.069,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.10999999940395355,
+      "episode_length": 6,
+      "energy": 153.65,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.398,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.0,
+      "episode_length": 1,
+      "energy": 15.32,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.397,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.019999999552965164,
+      "episode_length": 65,
+      "energy": 1102.39,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.242,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.03999999910593033,
+      "episode_length": 31,
+      "energy": 540.09,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.365,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.25999999046325684,
+      "episode_length": 11,
+      "energy": 176.13,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.281,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.4300000071525574,
+      "episode_length": 7,
+      "energy": 103.28,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.222,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 2.690000057220459,
+      "episode_length": 39,
+      "energy": 716.04,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.122,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.18000000715255737,
+      "episode_length": 11,
+      "energy": 195.73,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.392,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.25999999046325684,
+      "episode_length": 18,
+      "energy": 268.43,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.353,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.3799999952316284,
+      "episode_length": 13,
+      "energy": 224.9,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.268,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.23000000417232513,
+      "episode_length": 26,
+      "energy": 432.59,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.129,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.38999998569488525,
+      "episode_length": 19,
+      "energy": 348.28,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.388,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.07000000029802322,
+      "episode_length": 10,
+      "energy": 178.72,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.352,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.5899999737739563,
+      "episode_length": 43,
+      "energy": 695.14,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.198,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.6200000047683716,
+      "episode_length": 74,
+      "energy": 1183.3,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.283,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.05000000074505806,
+      "episode_length": 5,
+      "energy": 82.17,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.123,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.4000000059604645,
+      "episode_length": 13,
+      "energy": 204.31,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.079,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.6200000047683716,
+      "episode_length": 49,
+      "energy": 803.76,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.334,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.2800000011920929,
+      "episode_length": 10,
+      "energy": 157.11,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.222,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.12999999523162842,
+      "episode_length": 3,
+      "energy": 35.7,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.215,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 2.0899999141693115,
+      "episode_length": 46,
+      "energy": 759.4,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.142,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.5499999523162842,
+      "episode_length": 17,
+      "energy": 306.85,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.393,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.25999999046325684,
+      "episode_length": 2,
+      "energy": 32.43,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.379,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.0700000524520874,
+      "episode_length": 19,
+      "energy": 324.65,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.332,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.9299999475479126,
+      "episode_length": 43,
+      "energy": 713.07,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.187,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.36000001430511475,
+      "episode_length": 10,
+      "energy": 178.45,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.166,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 8.970000267028809,
+      "episode_length": 83,
+      "energy": 1357.67,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.109,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.5600000023841858,
+      "episode_length": 2,
+      "energy": 29.85,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.203,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 3.059999942779541,
+      "episode_length": 25,
+      "energy": 395.88,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.384,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.3899999856948853,
+      "episode_length": 18,
+      "energy": 278.05,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.303,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.8500000238418579,
+      "episode_length": 23,
+      "energy": 436.43,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.136,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.12999999523162842,
+      "episode_length": 2,
+      "energy": 27.54,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.201,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.07000000029802322,
+      "episode_length": 43,
+      "energy": 753.67,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.318,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.009999999776482582,
+      "episode_length": 6,
+      "energy": 123.03,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.157,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.009999999776482582,
+      "episode_length": 15,
+      "energy": 264.38,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.097,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.009999999776482582,
+      "episode_length": 2,
+      "energy": 34.24,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.407,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.15000000596046448,
+      "episode_length": 49,
+      "energy": 846.33,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.334,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.0,
+      "episode_length": 2,
+      "energy": 18.12,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.21,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.6499999761581421,
+      "episode_length": 33,
+      "energy": 551.04,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.143,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.3799999952316284,
+      "episode_length": 10,
+      "energy": 164.87,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.08,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.6800000071525574,
+      "episode_length": 21,
+      "energy": 410.29,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.391,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.10999999940395355,
+      "episode_length": 2,
+      "energy": 37.97,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.368,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.7000000476837158,
+      "episode_length": 55,
+      "energy": 958.91,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.211,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.4099999964237213,
+      "episode_length": 6,
+      "energy": 90.3,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.085,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.0,
+      "episode_length": 1,
+      "energy": 17.81,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.403,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.029999999329447746,
+      "episode_length": 2,
+      "energy": 51.48,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.403,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 2.009999990463257,
+      "episode_length": 59,
+      "energy": 1065.85,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.314,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.20999999344348907,
+      "episode_length": 5,
+      "energy": 81.72,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.207,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.2599999904632568,
+      "episode_length": 33,
+      "energy": 559.29,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.109,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.1599999964237213,
+      "episode_length": 1,
+      "energy": 18.07,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.393,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.5400000214576721,
+      "episode_length": 49,
+      "energy": 807.48,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.295,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.029999999329447746,
+      "episode_length": 1,
+      "energy": 17.67,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.134,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.009999999776482582,
+      "episode_length": 13,
+      "energy": 228.18,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.095,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.0,
+      "episode_length": 5,
+      "energy": 102.27,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.405,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.1100000143051147,
+      "episode_length": 50,
+      "energy": 901.13,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.274,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.1599999964237213,
+      "episode_length": 3,
+      "energy": 49.28,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.101,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.6800000071525574,
+      "episode_length": 14,
+      "energy": 234.64,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.075,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.2800000011920929,
+      "episode_length": 9,
+      "energy": 144.92,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.405,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.940000057220459,
+      "episode_length": 58,
+      "energy": 1052.48,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.218,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.019999999552965164,
+      "episode_length": 1,
+      "energy": 13.01,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.409,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.8799999952316284,
+      "episode_length": 22,
+      "energy": 370.85,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.395,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.38999998569488525,
+      "episode_length": 7,
+      "energy": 106.91,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.348,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.7300000190734863,
+      "episode_length": 51,
+      "energy": 871.18,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.177,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.9800000190734863,
+      "episode_length": 17,
+      "energy": 265.9,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.388,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.1899999976158142,
+      "episode_length": 5,
+      "energy": 84.1,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.362,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.49000000953674316,
+      "episode_length": 25,
+      "energy": 407.75,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.278,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 2.9800000190734863,
+      "episode_length": 49,
+      "energy": 826.46,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.134,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.15000000596046448,
+      "episode_length": 2,
+      "energy": 43.97,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.395,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.590000033378601,
+      "episode_length": 35,
+      "energy": 608.8,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.353,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.12999999523162842,
+      "episode_length": 6,
+      "energy": 104.9,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.244,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.8899999856948853,
+      "episode_length": 27,
+      "energy": 456.24,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.109,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.019999999552965164,
+      "episode_length": 2,
+      "energy": 31.81,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.2,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.6700000166893005,
+      "episode_length": 43,
+      "energy": 715.89,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.347,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.28999999165534973,
+      "episode_length": 6,
+      "energy": 93.47,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.238,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.0,
+      "episode_length": 35,
+      "energy": 631.91,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.125,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.20999999344348907,
+      "episode_length": 18,
+      "energy": 294.3,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.39,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.10000000149011612,
+      "episode_length": 5,
+      "energy": 82.64,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.357,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.029999999329447746,
+      "episode_length": 6,
+      "energy": 107.74,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.325,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.3100000023841858,
+      "episode_length": 39,
+      "energy": 679.47,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.166,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.8700000047683716,
+      "episode_length": 37,
+      "energy": 622.45,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.357,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.4099999964237213,
+      "episode_length": 37,
+      "energy": 602.22,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.148,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.05000000074505806,
+      "episode_length": 2,
+      "energy": 45.0,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.207,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.7900000214576721,
+      "episode_length": 29,
+      "energy": 529.92,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.372,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.36000001430511475,
+      "episode_length": 6,
+      "energy": 94.08,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.308,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.36000001430511475,
+      "episode_length": 27,
+      "energy": 500.21,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.243,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.4700000286102295,
+      "episode_length": 34,
+      "energy": 590.9,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.128,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.1599999964237213,
+      "episode_length": 1,
+      "energy": 26.72,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.391,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.05000000074505806,
+      "episode_length": 18,
+      "energy": 366.95,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.373,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.25,
+      "episode_length": 19,
+      "energy": 289.74,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.296,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.0299999713897705,
+      "episode_length": 31,
+      "energy": 493.69,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.149,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.23000000417232513,
+      "episode_length": 3,
+      "energy": 49.35,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.155,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 8.34000015258789,
+      "episode_length": 78,
+      "energy": 1359.83,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.277,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.3199999928474426,
+      "episode_length": 1,
+      "energy": 16.06,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.12,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.2599999904632568,
+      "episode_length": 21,
+      "energy": 347.94,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.078,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.0,
+      "episode_length": 9,
+      "energy": 157.4,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.398,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 2.819999933242798,
+      "episode_length": 76,
+      "energy": 1301.35,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.227,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.18000000715255737,
+      "episode_length": 3,
+      "energy": 45.71,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.136,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.20000000298023224,
+      "episode_length": 10,
+      "energy": 173.74,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.4,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.10000000149011612,
+      "episode_length": 1,
+      "energy": 20.5,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.397,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 2.130000114440918,
+      "episode_length": 65,
+      "energy": 1046.0,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.217,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.019999999552965164,
+      "episode_length": 2,
+      "energy": 34.37,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.401,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.03999999910593033,
+      "episode_length": 19,
+      "energy": 302.38,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.388,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.0,
+      "episode_length": 2,
+      "energy": 33.83,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.368,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.809999942779541,
+      "episode_length": 66,
+      "energy": 1109.47,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.277,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.12999999523162842,
+      "episode_length": 1,
+      "energy": 13.8,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.197,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.05000000074505806,
+      "episode_length": 5,
+      "energy": 78.02,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.178,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.5799999833106995,
+      "episode_length": 25,
+      "energy": 432.07,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.09,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.07000000029802322,
+      "episode_length": 34,
+      "energy": 639.05,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.364,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.05999999865889549,
+      "episode_length": 21,
+      "energy": 357.15,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.278,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.05000000074505806,
+      "episode_length": 6,
+      "energy": 138.37,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.267,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.4299999475479126,
+      "episode_length": 51,
+      "energy": 895.13,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.144,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.20999999344348907,
+      "episode_length": 2,
+      "energy": 43.95,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.399,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.5199999809265137,
+      "episode_length": 19,
+      "energy": 275.02,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.38,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.12999999523162842,
+      "episode_length": 26,
+      "energy": 415.81,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.259,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.23000000417232513,
+      "episode_length": 21,
+      "energy": 322.97,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.098,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.07999999821186066,
+      "episode_length": 2,
+      "energy": 33.5,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.396,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.6499999761581421,
+      "episode_length": 19,
+      "energy": 303.38,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.382,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 2.5999999046325684,
+      "episode_length": 58,
+      "energy": 1106.58,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.248,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.4700000286102295,
+      "episode_length": 29,
+      "energy": 495.53,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.092,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.7599999904632568,
+      "episode_length": 39,
+      "energy": 653.35,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.362,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.3400000035762787,
+      "episode_length": 10,
+      "energy": 147.04,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.249,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.3400000035762787,
+      "episode_length": 5,
+      "energy": 78.69,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.212,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.20999999344348907,
+      "episode_length": 34,
+      "energy": 613.88,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.118,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.1399999856948853,
+      "episode_length": 29,
+      "energy": 495.7,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.381,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.49000000953674316,
+      "episode_length": 18,
+      "energy": 351.86,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.296,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.3700000047683716,
+      "episode_length": 23,
+      "energy": 395.04,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.171,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.8399999737739563,
+      "episode_length": 22,
+      "energy": 402.7,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.082,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.4099999964237213,
+      "episode_length": 9,
+      "energy": 137.94,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.394,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.1699999570846558,
+      "episode_length": 34,
+      "energy": 660.69,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.319,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.18000000715255737,
+      "episode_length": 7,
+      "energy": 116.02,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.191,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.07000000029802322,
+      "episode_length": 26,
+      "energy": 463.92,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.092,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.0,
+      "episode_length": 1,
+      "energy": 13.49,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.399,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.2899999618530273,
+      "episode_length": 34,
+      "energy": 582.61,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.362,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.7400000095367432,
+      "episode_length": 19,
+      "energy": 310.12,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.26,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.7099999785423279,
+      "episode_length": 27,
+      "energy": 401.24,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.255,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.5299999713897705,
+      "episode_length": 34,
+      "energy": 618.57,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.264,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.019999999552965164,
+      "episode_length": 7,
+      "energy": 110.95,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.255,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.7599999904632568,
+      "episode_length": 57,
+      "energy": 902.72,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.12,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.0,
+      "episode_length": 1,
+      "energy": 11.76,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.4,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.8799999952316284,
+      "episode_length": 53,
+      "energy": 923.56,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.321,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.5600000023841858,
+      "episode_length": 17,
+      "energy": 305.66,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.11,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.029999999329447746,
+      "episode_length": 2,
+      "energy": 37.08,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.218,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.9199999570846558,
+      "episode_length": 67,
+      "energy": 1194.13,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.265,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.0,
+      "episode_length": 1,
+      "energy": 21.82,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.392,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.18000000715255737,
+      "episode_length": 2,
+      "energy": 41.67,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.392,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.36000001430511475,
+      "episode_length": 15,
+      "energy": 240.46,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.385,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 5.079999923706055,
+      "episode_length": 84,
+      "energy": 1399.67,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.236,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.9200000166893005,
+      "episode_length": 7,
+      "energy": 118.61,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.089,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 4.820000171661377,
+      "episode_length": 50,
+      "energy": 915.47,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.35,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.0,
+      "episode_length": 1,
+      "energy": 28.72,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.267,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 6.690000057220459,
+      "episode_length": 86,
+      "energy": 1501.45,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.191,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.9599999785423279,
+      "episode_length": 7,
+      "energy": 111.97,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.081,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.8200000524520874,
+      "episode_length": 31,
+      "energy": 550.59,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.372,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.5299999713897705,
+      "episode_length": 27,
+      "energy": 450.78,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.274,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.4700000286102295,
+      "episode_length": 41,
+      "energy": 710.78,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.215,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.159999966621399,
+      "episode_length": 35,
+      "energy": 617.09,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.11,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.25,
+      "episode_length": 10,
+      "energy": 173.33,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.056,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.019999999552965164,
+      "episode_length": 13,
+      "energy": 197.24,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.398,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.6100000143051147,
+      "episode_length": 26,
+      "energy": 514.17,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.348,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 4.079999923706055,
+      "episode_length": 58,
+      "energy": 964.73,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.226,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.46000000834465027,
+      "episode_length": 5,
+      "energy": 95.47,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.188,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.7200000286102295,
+      "episode_length": 38,
+      "energy": 660.83,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.111,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.47999998927116394,
+      "episode_length": 30,
+      "energy": 497.44,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.378,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.2199999988079071,
+      "episode_length": 13,
+      "energy": 169.09,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.294,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.28999999165534973,
+      "episode_length": 10,
+      "energy": 170.77,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.227,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.1699999570846558,
+      "episode_length": 45,
+      "energy": 733.36,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.124,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.15000000596046448,
+      "episode_length": 2,
+      "energy": 35.37,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.206,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.7300000190734863,
+      "episode_length": 25,
+      "energy": 391.76,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.393,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.6699999570846558,
+      "episode_length": 34,
+      "energy": 623.9,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.268,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.0,
+      "episode_length": 11,
+      "energy": 170.66,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.141,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.05999999865889549,
+      "episode_length": 18,
+      "energy": 305.58,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.077,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.0,
+      "episode_length": 1,
+      "energy": 25.07,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.399,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.4099999964237213,
+      "episode_length": 42,
+      "energy": 772.9,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.348,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.07000000029802322,
+      "episode_length": 33,
+      "energy": 576.26,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.133,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.0,
+      "episode_length": 17,
+      "energy": 279.45,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.396,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.009999999776482582,
+      "episode_length": 18,
+      "energy": 283.61,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.331,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.019999999552965164,
+      "episode_length": 15,
+      "energy": 283.21,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.251,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.6600000262260437,
+      "episode_length": 30,
+      "energy": 501.49,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.104,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.4099999964237213,
+      "episode_length": 35,
+      "energy": 574.27,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.339,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.9200000166893005,
+      "episode_length": 19,
+      "energy": 314.2,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.166,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.27000001072883606,
+      "episode_length": 7,
+      "energy": 114.19,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.071,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.30000001192092896,
+      "episode_length": 7,
+      "energy": 116.51,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.071,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.38999998569488525,
+      "episode_length": 62,
+      "energy": 1123.91,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.271,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.12999999523162842,
+      "episode_length": 2,
+      "energy": 50.91,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.212,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.6800000071525574,
+      "episode_length": 37,
+      "energy": 663.85,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.377,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.11999999731779099,
+      "episode_length": 14,
+      "energy": 238.85,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.252,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.03999999910593033,
+      "episode_length": 19,
+      "energy": 349.79,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.115,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.0,
+      "episode_length": 6,
+      "energy": 115.02,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.079,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.029999999329447746,
+      "episode_length": 29,
+      "energy": 566.23,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.377,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.019999999552965164,
+      "episode_length": 14,
+      "energy": 229.38,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.302,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.18000000715255737,
+      "episode_length": 19,
+      "energy": 362.25,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.238,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.0399999618530273,
+      "episode_length": 39,
+      "energy": 672.75,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.215,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.2599999904632568,
+      "episode_length": 34,
+      "energy": 572.9,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.139,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.07000000029802322,
+      "episode_length": 11,
+      "energy": 164.71,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.029,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.009999999776482582,
+      "episode_length": 2,
+      "energy": 42.11,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.199,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.5700000524520874,
+      "episode_length": 67,
+      "energy": 1209.82,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.251,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.0,
+      "episode_length": 1,
+      "energy": 8.63,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.405,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.18000000715255737,
+      "episode_length": 9,
+      "energy": 163.23,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.403,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.07999999821186066,
+      "episode_length": 1,
+      "energy": 15.44,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.397,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.9700000286102295,
+      "episode_length": 71,
+      "energy": 1254.09,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.251,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.3199999928474426,
+      "episode_length": 10,
+      "energy": 163.03,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.088,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.3700000047683716,
+      "episode_length": 9,
+      "energy": 159.13,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.068,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.7200000286102295,
+      "episode_length": 14,
+      "energy": 270.05,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.386,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.1899999976158142,
+      "episode_length": 35,
+      "energy": 546.61,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.298,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.25999999046325684,
+      "episode_length": 27,
+      "energy": 467.55,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.103,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.12999999523162842,
+      "episode_length": 27,
+      "energy": 480.57,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.371,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.029999999329447746,
+      "episode_length": 3,
+      "energy": 36.59,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.318,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.07999999821186066,
+      "episode_length": 15,
+      "energy": 233.29,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.265,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.12999999523162842,
+      "episode_length": 27,
+      "energy": 509.05,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.108,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.5099999904632568,
+      "episode_length": 26,
+      "energy": 433.93,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.384,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 2.140000104904175,
+      "episode_length": 53,
+      "energy": 909.56,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.175,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.0,
+      "episode_length": 1,
+      "energy": 15.8,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.404,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.25999999046325684,
+      "episode_length": 10,
+      "energy": 174.0,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.4,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.3199999928474426,
+      "episode_length": 7,
+      "energy": 142.38,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.382,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.7999999523162842,
+      "episode_length": 62,
+      "energy": 1073.63,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.265,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.09000000357627869,
+      "episode_length": 3,
+      "energy": 49.9,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.141,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.03999999910593033,
+      "episode_length": 22,
+      "energy": 382.34,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.084,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.0,
+      "episode_length": 1,
+      "energy": 19.24,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.407,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.3700000047683716,
+      "episode_length": 49,
+      "energy": 790.92,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.322,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.3400000035762787,
+      "episode_length": 9,
+      "energy": 178.12,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.193,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.0800000429153442,
+      "episode_length": 34,
+      "energy": 595.64,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.121,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.3400000035762787,
+      "episode_length": 7,
+      "energy": 126.75,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.073,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.0800000429153442,
+      "episode_length": 18,
+      "energy": 314.09,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.399,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.38999998569488525,
+      "episode_length": 5,
+      "energy": 89.64,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.378,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.3600000143051147,
+      "episode_length": 38,
+      "energy": 651.66,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.3,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.47999998927116394,
+      "episode_length": 41,
+      "energy": 724.14,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.232,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.3100000023841858,
+      "episode_length": 13,
+      "energy": 258.22,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.16,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.059999942779541,
+      "episode_length": 26,
+      "energy": 401.23,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.08,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.2199999988079071,
+      "episode_length": 3,
+      "energy": 51.67,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.15,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.149999976158142,
+      "episode_length": 26,
+      "energy": 447.21,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.39,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.0499999523162842,
+      "episode_length": 33,
+      "energy": 524.99,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.241,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.4000000059604645,
+      "episode_length": 9,
+      "energy": 151.97,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.091,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.0,
+      "episode_length": 1,
+      "energy": 14.4,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.393,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.550000011920929,
+      "episode_length": 33,
+      "energy": 611.69,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.359,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.800000011920929,
+      "episode_length": 25,
+      "energy": 443.42,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.169,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.18000000715255737,
+      "episode_length": 5,
+      "energy": 92.81,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.106,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.029999999329447746,
+      "episode_length": 25,
+      "energy": 402.77,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.373,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.5899999737739563,
+      "episode_length": 38,
+      "energy": 605.39,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.26,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.41999998688697815,
+      "episode_length": 45,
+      "energy": 773.53,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.146,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.25999999046325684,
+      "episode_length": 13,
+      "energy": 190.93,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.392,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.10000000149011612,
+      "episode_length": 6,
+      "energy": 122.0,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.378,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.18000000715255737,
+      "episode_length": 19,
+      "energy": 347.94,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.337,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 2.369999885559082,
+      "episode_length": 49,
+      "energy": 820.47,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.248,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.149999976158142,
+      "episode_length": 19,
+      "energy": 339.0,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.125,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.7799999713897705,
+      "episode_length": 14,
+      "energy": 248.16,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.07,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.30000001192092896,
+      "episode_length": 5,
+      "energy": 70.01,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.398,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.9700000286102295,
+      "episode_length": 50,
+      "energy": 804.92,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.295,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.350000023841858,
+      "episode_length": 23,
+      "energy": 370.62,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.197,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.3199999928474426,
+      "episode_length": 50,
+      "energy": 876.11,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.131,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.029999999329447746,
+      "episode_length": 1,
+      "energy": 39.16,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.404,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.05000000074505806,
+      "episode_length": 6,
+      "energy": 121.88,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.404,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.05000000074505806,
+      "episode_length": 23,
+      "energy": 360.4,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.376,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 2.3499999046325684,
+      "episode_length": 59,
+      "energy": 1012.53,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.205,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.3499999940395355,
+      "episode_length": 5,
+      "energy": 87.62,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.085,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.6200000047683716,
+      "episode_length": 14,
+      "energy": 248.97,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.068,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.949999988079071,
+      "episode_length": 68,
+      "energy": 1186.41,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.262,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.1599999964237213,
+      "episode_length": 6,
+      "energy": 110.31,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.401,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.0,
+      "episode_length": 1,
+      "energy": 22.32,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.4,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.2199999988079071,
+      "episode_length": 6,
+      "energy": 94.08,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.393,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 2.0,
+      "episode_length": 58,
+      "energy": 962.16,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.268,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.6399999856948853,
+      "episode_length": 10,
+      "energy": 183.97,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.147,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.5700000524520874,
+      "episode_length": 23,
+      "energy": 355.68,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.079,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.6699999570846558,
+      "episode_length": 34,
+      "energy": 536.36,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.355,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.1799999475479126,
+      "episode_length": 35,
+      "energy": 582.77,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.18,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.009999999776482582,
+      "episode_length": 7,
+      "energy": 146.16,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.071,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.0,
+      "episode_length": 3,
+      "energy": 56.76,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.406,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.17000000178813934,
+      "episode_length": 31,
+      "energy": 495.28,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.366,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.6600000262260437,
+      "episode_length": 34,
+      "energy": 625.55,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.159,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.05999999865889549,
+      "episode_length": 3,
+      "energy": 49.91,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.395,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.3799999952316284,
+      "episode_length": 30,
+      "energy": 511.27,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.357,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.2199999988079071,
+      "episode_length": 5,
+      "energy": 123.45,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.282,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.05999999865889549,
+      "episode_length": 34,
+      "energy": 505.12,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.146,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.33000001311302185,
+      "episode_length": 23,
+      "energy": 396.13,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.386,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.10999999940395355,
+      "episode_length": 6,
+      "energy": 115.96,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.335,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.4300000071525574,
+      "episode_length": 9,
+      "energy": 154.58,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.304,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.7599999904632568,
+      "episode_length": 57,
+      "energy": 941.11,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.169,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.5199999809265137,
+      "episode_length": 6,
+      "energy": 104.14,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.094,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.600000023841858,
+      "episode_length": 19,
+      "energy": 308.55,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.067,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.159999966621399,
+      "episode_length": 34,
+      "energy": 574.61,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.36,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.1899999976158142,
+      "episode_length": 9,
+      "energy": 165.63,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.258,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.550000011920929,
+      "episode_length": 18,
+      "energy": 316.4,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.129,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.14000000059604645,
+      "episode_length": 3,
+      "energy": 50.88,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.151,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.49000000953674316,
+      "episode_length": 50,
+      "energy": 871.41,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.336,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.9399999976158142,
+      "episode_length": 37,
+      "energy": 609.39,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.2,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.3400000035762787,
+      "episode_length": 9,
+      "energy": 153.39,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.071,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.23000000417232513,
+      "episode_length": 9,
+      "energy": 161.75,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.394,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 4.159999847412109,
+      "episode_length": 53,
+      "energy": 938.95,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.242,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.3199999928474426,
+      "episode_length": 6,
+      "energy": 126.73,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.094,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.18000000715255737,
+      "episode_length": 3,
+      "energy": 51.12,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.401,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.0,
+      "episode_length": 6,
+      "energy": 104.94,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.399,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.3400000035762787,
+      "episode_length": 63,
+      "energy": 1033.22,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.252,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.10000000149011612,
+      "episode_length": 7,
+      "energy": 108.58,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.406,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.07999999821186066,
+      "episode_length": 7,
+      "energy": 111.58,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.398,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.6000000238418579,
+      "episode_length": 31,
+      "energy": 537.53,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.341,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 4.320000171661377,
+      "episode_length": 55,
+      "energy": 867.84,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.155,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.2200000286102295,
+      "episode_length": 13,
+      "energy": 224.75,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.395,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.9700000286102295,
+      "episode_length": 22,
+      "energy": 379.67,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.357,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.6699999570846558,
+      "episode_length": 45,
+      "energy": 690.24,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.162,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.17000000178813934,
+      "episode_length": 5,
+      "energy": 94.11,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.391,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.30000001192092896,
+      "episode_length": 5,
+      "energy": 92.59,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.385,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.8700000047683716,
+      "episode_length": 21,
+      "energy": 359.04,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.323,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.8899999856948853,
+      "episode_length": 33,
+      "energy": 539.27,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.149,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.4699999988079071,
+      "episode_length": 9,
+      "energy": 158.74,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.391,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.33000001311302185,
+      "episode_length": 9,
+      "energy": 139.32,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.373,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.36000001430511475,
+      "episode_length": 41,
+      "energy": 687.9,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.24,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.28999999165534973,
+      "episode_length": 25,
+      "energy": 407.0,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.088,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.27000001072883606,
+      "episode_length": 10,
+      "energy": 182.58,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.396,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.07999999821186066,
+      "episode_length": 3,
+      "energy": 52.53,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.387,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.05999999865889549,
+      "episode_length": 38,
+      "energy": 650.17,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.314,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.009999999776482582,
+      "episode_length": 35,
+      "energy": 610.15,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.188,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.05999999865889549,
+      "episode_length": 26,
+      "energy": 457.85,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.079,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.009999999776482582,
+      "episode_length": 7,
+      "energy": 119.56,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.405,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.09000000357627869,
+      "episode_length": 14,
+      "energy": 226.81,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.391,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.0499999523162842,
+      "episode_length": 54,
+      "energy": 951.8,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.235,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.6499999761581421,
+      "episode_length": 23,
+      "energy": 406.93,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.111,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.5699999928474426,
+      "episode_length": 14,
+      "energy": 260.76,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.062,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.05999999865889549,
+      "episode_length": 5,
+      "energy": 87.66,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.403,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.8600000143051147,
+      "episode_length": 30,
+      "energy": 526.75,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.358,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 2.259999990463257,
+      "episode_length": 31,
+      "energy": 553.32,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.188,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.49000000953674316,
+      "episode_length": 10,
+      "energy": 151.48,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.083,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 5.519999980926514,
+      "episode_length": 66,
+      "energy": 1196.04,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.297,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.12999999523162842,
+      "episode_length": 1,
+      "energy": 14.97,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.217,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.4500000476837158,
+      "episode_length": 26,
+      "energy": 469.2,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.2,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 2.069999933242798,
+      "episode_length": 39,
+      "energy": 649.12,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.131,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.05999999865889549,
+      "episode_length": 3,
+      "energy": 83.08,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.397,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.2800000011920929,
+      "episode_length": 38,
+      "energy": 656.75,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.344,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.07000000029802322,
+      "episode_length": 5,
+      "energy": 100.26,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.245,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.7699999809265137,
+      "episode_length": 38,
+      "energy": 630.68,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.125,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.1899999976158142,
+      "episode_length": 11,
+      "energy": 186.89,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.395,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.07000000029802322,
+      "episode_length": 14,
+      "energy": 234.19,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.374,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.0,
+      "episode_length": 59,
+      "energy": 929.43,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.206,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.05999999865889549,
+      "episode_length": 5,
+      "energy": 113.6,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.393,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.07000000029802322,
+      "episode_length": 2,
+      "energy": 27.64,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.392,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.05999999865889549,
+      "episode_length": 39,
+      "energy": 686.82,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.309,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.550000011920929,
+      "episode_length": 26,
+      "energy": 431.86,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.111,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.07000000029802322,
+      "episode_length": 1,
+      "energy": 8.81,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.408,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.4000000059604645,
+      "episode_length": 22,
+      "energy": 408.89,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.385,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.03999999910593033,
+      "episode_length": 27,
+      "energy": 412.91,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.247,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.029999999329447746,
+      "episode_length": 14,
+      "energy": 230.25,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.081,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.0,
+      "episode_length": 5,
+      "energy": 92.37,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.403,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.47999998927116394,
+      "episode_length": 46,
+      "energy": 741.38,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.315,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.30000001192092896,
+      "episode_length": 17,
+      "energy": 236.47,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.096,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.10000000149011612,
+      "episode_length": 6,
+      "energy": 108.65,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.399,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.05999999865889549,
+      "episode_length": 11,
+      "energy": 242.41,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.389,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 1.4299999475479126,
+      "episode_length": 55,
+      "energy": 934.48,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.22,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.3499999940395355,
+      "episode_length": 10,
+      "energy": 195.51,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.404,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.0,
+      "episode_length": 1,
+      "energy": 10.98,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.4,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.0,
+      "episode_length": 2,
+      "energy": 47.36,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.389,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.6299999952316284,
+      "episode_length": 59,
+      "energy": 998.25,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.219,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.05000000074505806,
+      "episode_length": 6,
+      "energy": 104.06,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.4,
+      "skill": "stand"
+    },
+    {
+      "total_reward": 0.029999999329447746,
+      "episode_length": 1,
+      "energy": 12.37,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.399,
+      "skill": "stand"
+    },
+    {
+      "total_reward": -0.009999999776482582,
+      "episode_length": 10,
+      "energy": 188.75,
+      "fell": false,
+      "fall_type": "none",
+      "mean_height": 1.385,
+      "skill": "stand"
+    }
+  ]
+}

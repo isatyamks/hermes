@@ -3,7 +3,4 @@ mujoco
 stable-baselines3
 torch
 numpy
-pandas
 pyyaml
-matplotlib
-tqdm

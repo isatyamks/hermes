@@ -1,5 +1,5 @@
 import gymnasium as gym
-from env.reward_wrapper import SkillRewardWrapper
+from envi.reward_wrapper import SkillRewardWrapper
 
 
 def make_env(render_mode=None, skill_manager=None):

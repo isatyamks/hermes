@@ -2,7 +2,7 @@ import subprocess
 
 
 class OllamaClient:
-    def __init__(self, model="llama3.1:3b"):
+    def __init__(self, model="llama3.2:3b"):
         self.model = model
 
     def chat(self, system_prompt: str, user_prompt: str) -> str:
